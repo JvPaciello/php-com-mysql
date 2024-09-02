@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+        * {
+            
+            padding-right:10px;
+            justify-content:center;
+        }
         ul {
             display: flex;
-            /* flex-direction: row; */
+            flex-direction: row; 
             list-style: none;
-            background-color: black;
+            background-color: gray;
         }
 
         li {
             padding: 5px;
         }
 
-        * {
-            margin: 0;
-        }
 
         a {
             text-decoration: none;
@@ -38,7 +41,7 @@
             padding: 10px;
         }
         img{
-            width: 120px;
+            width: 190px;
         }
         #imagem{
             /* background-color: lightblue; */
@@ -46,13 +49,14 @@
             /* height:"20%"; */
         }
         #dados{
-            background-color: lightcoral;
+            background-color: white;
             width: 80%;
-            height: 80%;
-            color: green;
-            border: 2px solid;
+            height: 50%;
+            color: black;
+            border: 1px solid;
             border-radius: 10px;
-            padding: 10px;
+            padding: 0px;
+            padding-top:0px;
         }
         span{
             color: black;
@@ -61,8 +65,7 @@
             margin: 15px;
         }
         p{
-            background-color: palegreen;
-            /* border: 1px dashed; */
+            background-image: linear-gradient(gray, white);
             padding: 15px;
         }
     </style>

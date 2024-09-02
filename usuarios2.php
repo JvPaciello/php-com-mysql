@@ -40,7 +40,7 @@
         }
 
         img {
-            width: 120px;
+            width: 190px;
         }
 
         #imagem {
@@ -53,7 +53,7 @@
             /* background-color: lightcoral; */
             width: 80%;
             height: 80%;
-            color: green;
+            color: linear-gradient(black,gray);
             border: 2px solid;
             border-radius: 10px;
             padding: 10px;
@@ -88,7 +88,7 @@
         }
 
         th {
-            background-color: green;
+            background-color: black;
             color: white;
         }
     </style>
