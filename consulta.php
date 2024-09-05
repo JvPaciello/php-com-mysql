@@ -14,7 +14,7 @@
 
     echo "<br><b>Nomes que começam com 'c'</b><br>";
     $sql = "SELECT id, nome, senha, email FROM usuario where nome like 'c%';";
-    $resultado = mysqli_query($conexao, $sql);
+    $resultado = mysqli_query($conexao, $sql);   
     echo "<br>";
     if (mysqli_num_rows($resultado) > 0) {
         while($registro = mysqli_fetch_assoc($resultado)) {
