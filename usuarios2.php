@@ -18,7 +18,9 @@
         }
 
         * {
-            margin: 0;
+            padding-right:10px;
+            
+            justify-content:center;
         }
 
         a {
